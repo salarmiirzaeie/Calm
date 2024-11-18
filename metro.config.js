@@ -2,6 +2,7 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
 const {
   wrapWithReanimatedMetroConfig,
 } = require('react-native-reanimated/metro-config');
+const path = require('path');
 
 /**
  * Metro configuration
@@ -11,9 +12,13 @@ const {
  */
 const defaultConfig = getDefaultConfig(__dirname);
 
-// Define your custom configuration
+// Define your custom configuration with alias
 const customConfig = {
-  // Add any custom Metro configuration here
+  resolver: {
+    extraNodeModules: {
+      '@': path.resolve(__dirname, 'app'),
+    },
+  },
 };
 
 // Merge default config with custom config
