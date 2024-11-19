@@ -4,11 +4,11 @@ import {useDispatch} from 'react-redux';
 
 export const useAuthRepository = () => {
   const dispatch = useDispatch();
-  const user = useAppSelector(state => state.auth.authorized);
+  const authorized = useAppSelector(state => state.auth.authorized);
 
   const setUser = (token: string) => {
     dispatch(setToken(token));
   };
 
-  return {user, setUser};
+  return {authorized, setUser};
 };

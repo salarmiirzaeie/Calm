@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/BYekan.ttf",
+      "sha1": "fb4f5f327ecbf01149fee96872b1f23b6cb16ecb"
+    },
+    {
+      "path": "app/assets/fonts/dastnevis.ttf",
+      "sha1": "9ab4bbefd521f41870d1f783397734fd1f039f46"
+    }
+  ]
+}
