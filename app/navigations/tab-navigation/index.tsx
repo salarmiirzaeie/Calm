@@ -2,7 +2,7 @@ import {View, Text} from 'react-native';
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {homeTabStackParamList} from '../types';
-import WelcomeScreen from '@/domain/welcome/welcome-screen';
+import WelcomeScreen from '@/domain/auth/welcome-screen/welcome-screen';
 const Tab = createBottomTabNavigator<homeTabStackParamList>();
 
 const TabNavigation = () => {
