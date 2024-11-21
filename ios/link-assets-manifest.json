@@ -6,8 +6,20 @@
       "sha1": "fb4f5f327ecbf01149fee96872b1f23b6cb16ecb"
     },
     {
+      "path": "app/assets/fonts/BYekanBold.ttf",
+      "sha1": "0c40703b127e4cfeefd39587b24f19d0dc5ab4f7"
+    },
+    {
       "path": "app/assets/fonts/dastnevis.ttf",
       "sha1": "9ab4bbefd521f41870d1f783397734fd1f039f46"
+    },
+    {
+      "path": "app/assets/fonts/irsans.ttf",
+      "sha1": "36645cacd58f14abc24e1240339058839ec5a6cc"
+    },
+    {
+      "path": "app/assets/fonts/irsansb.ttf",
+      "sha1": "bbba4ee931b134be7ccbecc495b69e62d8a348d4"
     }
   ]
 }

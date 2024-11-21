@@ -51,6 +51,9 @@
 	<array>
 		<string>BYekan.ttf</string>
 		<string>dastnevis.ttf</string>
+		<string>irsans.ttf</string>
+		<string>irsansb.ttf</string>
+		<string>BYekanBold.ttf</string>
 	</array>
 </dict>
 </plist>

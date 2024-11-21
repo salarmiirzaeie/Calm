@@ -46,17 +46,16 @@ const WelcomeScreen: FC<props> = ({navigation}) => {
         alignItems="center"
         flex={1}>
         <View>
-          <Text bold size="3xl" textAlign="center">
-            We are what we do
+          <Text size="3xl" textAlign="center">
+            کردار نیک
           </Text>
           <Text mt={'$2'} textAlign="center">
-            Thousand of people are using silent moon {'\n'} for smalls
-            meditation
+            هزاران کاربر از جان آسا برای موفقیت استفاده میکنند
           </Text>
         </View>
 
         <Button onPress={() => navigation.navigate('Otp')} w={'90%'} size="xl">
-          <ButtonText>Get Started</ButtonText>
+          <ButtonText>شروع</ButtonText>
         </Button>
       </View>
     </View>

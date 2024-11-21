@@ -11,7 +11,7 @@ const ChooseTopicScreen: FC<props> = ({navigation}) => {
   return (
     <View>
       <Text>ChooseTopicScreen</Text>
-      <Button onPress={() => setUser('123')} w={'90%'} size="xl">
+      <Button mt={50} onPress={() => setUser('123')} w={'90%'} size="xl">
         <ButtonText>Submit</ButtonText>
       </Button>
     </View>

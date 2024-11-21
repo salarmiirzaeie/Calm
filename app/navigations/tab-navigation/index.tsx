@@ -11,6 +11,7 @@ import IconBox from './components/icon-box';
 import MoonIcon from '@/components/icons/moon-icon';
 import MusicIcon from '@/components/icons/music-icon';
 import UserIcon from '@/components/icons/user-icon';
+import ProfileStack from '../profile-navigation';
 const Tab = createBottomTabNavigator<tabsParamList>();
 
 const TabNavigation = () => {
@@ -22,14 +23,16 @@ const TabNavigation = () => {
         tabBarActiveTintColor: '#8E97FD',
         tabBarStyle: {
           backgroundColor: '#fff',
-          height: 100,
+          height: 80,
           justifyContent: 'center',
         },
         tabBarInactiveTintColor: '#A0A3B1',
         tabBarIconStyle: {
           marginTop: 18,
         },
-      }}>
+        tabBarShowLabel: false,
+      }}
+      initialRouteName="Home">
       <Tab.Screen
         name={'Profile'}
         options={{
@@ -46,7 +49,7 @@ const TabNavigation = () => {
             );
           },
         }}
-        component={WelcomeScreen}
+        component={ProfileStack}
       />
       <Tab.Screen
         name={'Music'}
@@ -95,7 +98,7 @@ const TabNavigation = () => {
           tabBarLabel: ({focused, color}) => {
             return (
               <Text mt={10} color="#A0A3B1" fontFamily="dastnevis">
-                آرامان
+                کردار
               </Text>
             );
           },

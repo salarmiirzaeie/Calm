@@ -6,7 +6,7 @@ export const useAuthRepository = () => {
   const dispatch = useDispatch();
   const authorized = useAppSelector(state => state.auth.authorized);
 
-  const setUser = (token: string) => {
+  const setUser = async (token: string | null) => {
     dispatch(setToken(token));
   };
 

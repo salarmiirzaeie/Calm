@@ -17,6 +17,9 @@
 		B0CF37D383E15F222B8611CE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		BCC24F32E9E6458887830B66 /* BYekan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 951A0CFEA41E4C57B3BD29C2 /* BYekan.ttf */; };
 		CF8AE71EA7B24D5BAD1CCCCA /* dastnevis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C863DE4D0234D8CB364EC71 /* dastnevis.ttf */; };
+		1099EEDEF2134FCB9CBD3881 /* irsans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8585D86EFE534E56A6A467C5 /* irsans.ttf */; };
+		965713F20611482E9A90145F /* irsansb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00C0C4C940064BB182583E90 /* irsansb.ttf */; };
+		CC280206CB1B4CE596CDCAE7 /* BYekanBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78BC806DFFFE4C7C8EB032BF /* BYekanBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		951A0CFEA41E4C57B3BD29C2 /* BYekan.ttf */ = {isa = PBXFileReference; name = "BYekan.ttf"; path = "../app/assets/fonts/BYekan.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		5C863DE4D0234D8CB364EC71 /* dastnevis.ttf */ = {isa = PBXFileReference; name = "dastnevis.ttf"; path = "../app/assets/fonts/dastnevis.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8585D86EFE534E56A6A467C5 /* irsans.ttf */ = {isa = PBXFileReference; name = "irsans.ttf"; path = "../app/assets/fonts/irsans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		00C0C4C940064BB182583E90 /* irsansb.ttf */ = {isa = PBXFileReference; name = "irsansb.ttf"; path = "../app/assets/fonts/irsansb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		78BC806DFFFE4C7C8EB032BF /* BYekanBold.ttf */ = {isa = PBXFileReference; name = "BYekanBold.ttf"; path = "../app/assets/fonts/BYekanBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,9 @@
 			children = (
 				951A0CFEA41E4C57B3BD29C2 /* BYekan.ttf */,
 				5C863DE4D0234D8CB364EC71 /* dastnevis.ttf */,
+				8585D86EFE534E56A6A467C5 /* irsans.ttf */,
+				00C0C4C940064BB182583E90 /* irsansb.ttf */,
+				78BC806DFFFE4C7C8EB032BF /* BYekanBold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -264,6 +273,9 @@
 				B0CF37D383E15F222B8611CE /* PrivacyInfo.xcprivacy in Resources */,
 				BCC24F32E9E6458887830B66 /* BYekan.ttf in Resources */,
 				CF8AE71EA7B24D5BAD1CCCCA /* dastnevis.ttf in Resources */,
+				1099EEDEF2134FCB9CBD3881 /* irsans.ttf in Resources */,
+				965713F20611482E9A90145F /* irsansb.ttf in Resources */,
+				CC280206CB1B4CE596CDCAE7 /* BYekanBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

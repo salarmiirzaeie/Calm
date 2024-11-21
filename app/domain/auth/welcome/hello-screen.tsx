@@ -9,6 +9,7 @@ const HelloScreen: FC<props> = ({navigation}) => {
   return (
     <View>
       <Button
+        mt={50}
         onPress={() => navigation.navigate('ChooseTopic')}
         w={'90%'}
         size="xl">

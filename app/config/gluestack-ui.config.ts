@@ -329,7 +329,7 @@ export const gluestackUIConfig = createConfig({
       secondary200: '#DADADA',
       secondary300: '#B0B0B0',
       secondary400: '#737373',
-      secondary500: '#5F5F5F',
+      secondary500: '#FFC97E',
       secondary600: '#525252',
       secondary700: '#404040',
       secondary800: '#262626',
@@ -537,8 +537,8 @@ export const gluestackUIConfig = createConfig({
       extraBlack: '950',
     },
     fonts: {
-      heading: undefined,
-      body: undefined,
+      heading: 'dastnevis',
+      body: 'BYekan',
       mono: undefined,
     },
     fontSizes: {

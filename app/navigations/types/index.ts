@@ -12,6 +12,9 @@ export type authStackParamList = {
   VerifyOtp: undefined;
   ChooseTopic: undefined;
 };
+export type profileStackParamList = {
+  ProfileSettings: undefined;
+};
 export type tabsParamList = {
   Home: undefined;
   Profile: undefined;
